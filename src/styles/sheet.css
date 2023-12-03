@@ -15,10 +15,14 @@ section textarea {
     flex-direction: column;
     justify-content: center;
     padding-left: 30px;
+    padding-right: 30px;
+
 }
 
 .top-level {
     padding-left: 20px;
+    padding-right: 30px;
+
 }
 
 #sheet-date {
@@ -50,7 +54,7 @@ section textarea {
     display: flex;
 }
 
-.result-element{
+.result-element {
     display: flex;
     gap: 2rem;
 }
