@@ -1,0 +1,56 @@
+section {
+    display: flex;
+    justify-content: start;
+}
+
+section textarea {
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-family: Special Elite;
+}
+
+#sheetpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.top-level {
+    padding-left: 20px;
+}
+
+#sheet-date {
+    font-size: 23px;
+}
+
+
+#sheet-font {
+    font-size: 20px;
+}
+
+#font-settings {
+    margin-top: 12px;
+    display: flex;
+    gap: 2rem;
+}
+
+
+#sheet-results {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #ffff;
+    padding: 10px;
+}
+
+
+#options {
+    display: flex;
+}
+
+.result-element{
+    display: flex;
+    gap: 2rem;
+}
