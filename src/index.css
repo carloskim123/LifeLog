@@ -1,9 +1,11 @@
-
-*{
+* {
   font-family: Special Elite;
 }
 
-body,html{
+body, html {
+  background: conic-gradient(at right bottom, rgb(243, 232, 255), rgb(94, 234, 212), rgb(254, 202, 202));
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+
 }

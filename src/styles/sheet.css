@@ -1,6 +1,5 @@
 section {
-    display: flex;
-    justify-content: start;
+    max-width: 900px;
 }
 
 section textarea {
@@ -8,6 +7,12 @@ section textarea {
     outline: none;
     padding: 20px;
     font-family: Special Elite;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: transparent;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+
 }
 
 #sheetpage {
@@ -26,19 +31,22 @@ section textarea {
 }
 
 #sheet-date {
-    font-size: 23px;
+    font-size: 33px;
+    margin-bottom: 3rem;
 }
 
 
 #sheet-font {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #font-settings {
-    margin-top: 12px;
+    margin-top: 20px;
     display: flex;
     gap: 2rem;
+
 }
+
 
 
 #sheet-results {
@@ -47,6 +55,10 @@ section textarea {
     width: 100%;
     background: #ffff;
     padding: 10px;
+    height: 50px;
+    background: transparent;
+    backdrop-filter: blur(12px);
+
 }
 
 
@@ -57,4 +69,10 @@ section textarea {
 .result-element {
     display: flex;
     gap: 2rem;
+
+}
+
+button {
+    padding: 5px;
+
 }
